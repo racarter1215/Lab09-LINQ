@@ -23,10 +23,10 @@
 ##### Select the Program.cs document
 
 ### Lab 09 Solution
-![App Image 1](../assets/Lab09Solution1.png)
-![App Image 2](../assets/Lab09Solution2.png)
-![App Image 3](../assets/Lab09Solution3.png)
-![App Image 4](../assets/Lab09Solution4and5.png)
+![App Image 1](./assets/Lab09Solution1.png)
+![App Image 2](./assets/Lab09Solution2.png)
+![App Image 3](./assets/Lab09Solution3.png)
+![App Image 4](./assets/Lab09Solution4and5.png)
 
 
 #### Change Log
