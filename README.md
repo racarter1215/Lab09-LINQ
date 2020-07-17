@@ -5,9 +5,9 @@
 
 ### Description
 
-##### This is a C# console application that will utilize collections and enumerations to create a virtual library that a user can interact with in a variety of ways.
-##### I first created both Book and Author classes which I used for the basis of building later in the code. I also built out the Program class to hold user interface instructions as well as places for the user to trigger methods that facilitate the desired result of their entered commands
-##### I utilized enumerations and collections to manipulate and transfer data when and where required throughout the app.
+##### This is a C# console application that utilized LINQ to acces json data and mainpulate its rendering to the terminal.
+##### I first created both Properties, Root, GeoLocation, and Feature classes which I used for the basis of building later in the code. I also built out the Program class to hold the methods and variables that access the json in a variety of ways. I utilized both LINQ query and LINQ method formats to access json data, specifically neighborhood names. 
+##### I utilized json and LINQ throughout the app to showcase the ability to draw data and render it for a user in a variety of ways using a variety of methods.
 
 #### Getting started
 
