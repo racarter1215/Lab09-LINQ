@@ -12,8 +12,34 @@ namespace Lab09_LINQ
     {
         public static Root JsonData { get; set; }
         static void Main(string[] args)
-        {
+        { 
+        
             GetJson();
+            var GetNeighborhoods = from place in JsonData.features
+            select place.properties.neighborhood;
+            for (int i = 0; i < GetNeighborhoods.Count(); i++)
+            {
+                Console.WriteLine($"{i + 1}. {GetNeighborhoods.ElementAt(i)}");
+            }
+
+            var GetNamedNeighborhoods = from place in JsonData.features
+                                        where place.properties.neighborhood != ""
+                                        select place.properties.neighborhood;
+            for(int i = 0; i < GetNamedNeighborhoods.Count(); i++)
+            {
+                //Console.WriteLine($"{i + 1}. {GetNamedNeighborhoods}");
+                Console.WriteLine($"{i + 1}. {GetNamedNeighborhoods.ElementAt(i)}");
+                //Console.WriteLine($"{i + 1}. {GetNamedNeighborhoods.Distinct()}");
+            }
+
+            var GetDistinctNeighborhoods = from place in JsonData.features
+                                        where place.properties.neighborhood != ""
+                                        select place.properties.neighborhood;
+            for (int i = 0; i < GetDistinctNeighborhoods.Count(); i++)
+            {
+
+                Console.WriteLine($"{i + 1}. {GetDistinctNeighborhoods.Distinct().ElementAt(i)}");
+            }
         }
 
         public static void GetJson()
