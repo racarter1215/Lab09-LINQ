@@ -32,4 +32,4 @@
 #### Change Log
 
 ###### 1.2: Collaboration effort made to optimize code - 16 July 2020
-###### 1.1: App first created - 16 July 2020
+###### 1.1: Application first created - 16 July 2020
