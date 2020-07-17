@@ -4,7 +4,9 @@ using System.Text;
 
 
 namespace Lab09_LINQ
-{
+{/// <summary>
+/// below is a class that holds data specific to the neighborhood in the json
+/// </summary>
     public class Properties
     {
         public string zip { get; set; }
