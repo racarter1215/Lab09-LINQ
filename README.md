@@ -12,20 +12,24 @@
 #### Getting started
 
 ##### Clone this repository to your local machine.
-###### $ git clone https://github.com/racarter1215/Lab08-Collections.git
+###### $ git clone https://github.com/racarter1215/Lab09-LINQ.git
 
 ### To run this application from VS:
 
 ##### Select File, then Open, then Project/Solution
 ##### Find the location of the cloned Repository
-##### Select Lab08-Collec08-Collections folder
+##### Select Lab09-LINQ folder
+##### Select the next Lab09-LINQ folder
 ##### Select the Program.cs document
 
-### Lab 08 Application WhiteBoard
-![Placeholder]https://via.placeholder.com/750x500
+### Lab 09 Solution
+![App Image 1](./assets/Lab09Solution1.png)
+![App Image 2](./assets/Lab09Solution2.png)
+![App Image 3](./assets/Lab09Solution3.png)
+![App Image 4](./assets/Lab09Solution4and5.png)
 
 
 #### Change Log
 
-###### 1.2: Collaboration effort made to optimize code - 15 July 2020
-###### 1.1: App first created - 15 July 2020
+###### 1.2: Collaboration effort made to optimize code - 16 July 2020
+###### 1.1: App first created - 16 July 2020
